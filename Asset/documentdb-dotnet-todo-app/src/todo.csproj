@@ -25,6 +25,7 @@
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
     <TargetFrameworkProfile />
+    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -208,7 +209,7 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\azure-libraries-for-net\src\ResourceManagement\ResourceManager\Microsoft.Azure.Management.ResourceManager.Fluent.csproj">
+    <ProjectReference Include="..\..\..\..\..\Azure\azure-libraries-for-net\src\ResourceManagement\ResourceManager\Microsoft.Azure.Management.ResourceManager.Fluent.csproj">
       <Project>{c67ba3ec-f895-4232-91cd-6af5f5847072}</Project>
       <Name>Microsoft.Azure.Management.ResourceManager.Fluent</Name>
     </ProjectReference>
